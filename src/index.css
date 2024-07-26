@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.go-down {
+  animation: go-down-anim 4s forwards linear;
+}
+
+@keyframes go-down-anim {
+  to {
+    top: 100%;
+  }
+}
